@@ -6,19 +6,19 @@ body {
 }
 
 .container {
-  width: 1140px;
+  width: 1000px;
   padding: 10px;
   background-color: #f4f2f1;
 }
 
 .image-header {
-  width: 1140px;
+  width: 1000px;
   height: 190px;
   text-align: center;
 }
 
 .image-header img {
-  width: 1140px;
+  width: 1000px;
   height: 190px;
   object-fit: cover;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .cardn {
-  width: 570px;
+  width: 500px;
   height: 400px;
   background-color: #f4f2f1;
   margin-bottom: 20px;
@@ -43,7 +43,7 @@ body {
 }
 
 .cardn img:first-child {
-  height: 190px;
+  height: 170px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -52,7 +52,7 @@ body {
 }
 
 .cardn-text {
-  width: 570px;
+  width: 500px;
   height: 85px;
   font-size: 13px;
   padding: 5px 10px;
@@ -61,7 +61,7 @@ body {
 }
 
 .cardn img:nth-of-type(2) {
-  height: 65px;
+  height: 40px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -70,7 +70,7 @@ body {
 }
 
 .cardn-text-prayers {
-  width: 570px;
+  width: 500px;
   height: 60px;
   padding: 5px 10px;
   box-sizing: border-box;
@@ -79,7 +79,7 @@ body {
 }
 
 .cardk {
-  width: 1140px;
+  width: 1000px;
   height: 410px;
   background-color: #f4f2f1;
   margin: 20px 0;
@@ -91,7 +91,7 @@ body {
 }
 
 .cardk img {
-  height: 110px;
+  height: 100px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -100,7 +100,7 @@ body {
 }
 
 .cardk-text {
-  width: 1140px;
+  width: 1000px;
   height: 150px;
   padding: 10px;
   box-sizing: border-box;
