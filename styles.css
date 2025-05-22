@@ -37,7 +37,6 @@ body {
   margin-bottom: 20px;
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   overflow: hidden;
   text-align: left;
 }
@@ -83,12 +82,11 @@ body {
 
 .cardk {
   width: 1000px;
-  height: 410px;
+  height: flex;
   background-color: #f4f2f1;
   margin: 20px 0;
   box-sizing: border-box;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   text-align: left;
   overflow: hidden;
   white-space: pre-line;
@@ -105,7 +103,7 @@ body {
 
 .cardk-text {
   width: 1000px;
-  height: 150px;
+  height: flex;
   font-size: 13px;
   padding: 2px 70px;
   box-sizing: border-box;
