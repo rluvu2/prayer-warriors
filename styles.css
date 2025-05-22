@@ -110,3 +110,14 @@ body {
   padding: 70px;
   box-sizing: border-box;
 }
+
+.cardk-wrapper {
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.cardk-wrapper.hidden {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
