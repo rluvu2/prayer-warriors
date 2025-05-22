@@ -44,6 +44,7 @@ function fetchAndRenderCards() {
 
 document.addEventListener('DOMContentLoaded', () => {
   fetchAndRenderCards();
+
   const toggleBtn = document.getElementById('toggle-cardk-btn');
   const cardkWrapper = document.querySelector('.cardk-wrapper');
 
@@ -51,3 +52,4 @@ document.addEventListener('DOMContentLoaded', () => {
     cardkWrapper.classList.toggle('hidden');
   });
 });
+
