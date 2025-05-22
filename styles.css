@@ -72,6 +72,7 @@ body {
 .cardn-text-prayers {
   width: 500px;
   height: 60px;
+  font-size: 13px;
   padding: 5px 65px;
   box-sizing: border-box;
   overflow: hidden;
@@ -102,6 +103,7 @@ body {
 .cardk-text {
   width: 1000px;
   height: 150px;
+  font-size: 13px;
   padding: 70px;
   box-sizing: border-box;
 }
