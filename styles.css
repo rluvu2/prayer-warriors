@@ -58,6 +58,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   white-space: pre-line;
+  word-break: keep-all;
 }
 
 .cardn img:nth-of-type(2) {
@@ -78,6 +79,7 @@ body {
   overflow: hidden;
   color: #bc6c71;
   white-space: pre-line;
+  word-break: keep-all;
 }
 
 .cardk {
@@ -107,6 +109,8 @@ body {
   font-size: 13px;
   padding: 2px 70px;
   box-sizing: border-box;
+  word-break: keep-all;
+
 }
 
 .cardk-wrapper {
