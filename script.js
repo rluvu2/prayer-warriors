@@ -8,11 +8,15 @@ function fetchAndRenderCards() {
       cardns.forEach(card => {
         const div = document.createElement('div');
         div.className = 'cardn';
+
+        const text = card.text.replace(/\n/g, '<br>');
+        const prayer = card.prayer.replace(/\n/g, '<br>');
+
         div.innerHTML = `
           <img src="${card.img1}">
-          <div class="cardn-text">${card.text}</div>
+          <div class="cardn-text">${text}</div>
           <img src="${card.img2}">
-          <div class="cardn-text-prayers">${card.prayer}</div>
+          <div class="cardn-text-prayers">${prayer}</div>
         `;
         cardnWrapper.appendChild(div);
       });
@@ -24,10 +28,14 @@ function fetchAndRenderCards() {
       cardks.forEach(card => {
         const div = document.createElement('div');
         div.className = 'cardk';
+
+        const text1 = card.texts[0].replace(/\n/g, '<br>');
+        const text2 = card.texts[1].replace(/\n/g, '<br>');
+
         div.innerHTML = `
           <img src="${card.img}">
-          <div class="cardk-text">${card.texts[0]}</div>
-          <div class="cardk-text">${card.texts[1]}</div>
+          <div class="cardk-text">${text1}</div>
+          <div class="cardk-text">${text2}</div>
         `;
         cardkWrapper.appendChild(div);
       });
