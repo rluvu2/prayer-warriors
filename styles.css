@@ -121,3 +121,14 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
+.cardk-toggle {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#toggle-cardk-btn {
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
