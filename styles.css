@@ -1,0 +1,107 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1140px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.image-header {
+  width: 1140px;
+  height: 190px;
+  text-align: center;
+}
+
+.image-header img {
+  width: 1140px;
+  height: 190px;
+  object-fit: cover;
+}
+
+.cardn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.cardn {
+  width: 570px;
+  height: 400px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.cardn img:first-child {
+  height: 190px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+.cardn-text {
+  width: 570px;
+  height: 85px;
+  font-size: 13px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cardn img:nth-of-type(2) {
+  height: 65px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+.cardn-text-prayers {
+  width: 570px;
+  height: 60px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #bc6c71;
+}
+
+.cardk {
+  width: 1140px;
+  height: 410px;
+  background-color: #f0f0f0;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+  overflow: hidden;
+}
+
+.cardk img {
+  height: 110px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+}
+
+.cardk-text {
+  width: 1140px;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
