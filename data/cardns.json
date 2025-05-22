@@ -1,14 +1,14 @@
 [
   {
-    "img1": "img/n1.jpg",
+    "img1": "img/n1.png",
     "text": "n 카드 텍스트 1",
-    "img2": "img/supporters.jpg",
+    "img2": "img/supporters.png",
     "prayer": "기도제목 1"
   },
   {
-    "img1": "img/n2.jpg",
+    "img1": "img/n2.png",
     "text": "n 카드 텍스트 2",
-    "img2": "img/supporters.jpg",
+    "img2": "img/supporters.png",
     "prayer": "기도제목 2"
   }
 ]
