@@ -11,13 +11,13 @@ body {
   background-color: #f4f2f1;
 }
 
-.image-header {
+.title-image-header {
   width: 1000px;
   height: 190px;
   text-align: center;
 }
 
-.image-header img {
+.title-image-header img {
   width: 1000px;
   height: 190px;
   object-fit: cover;
@@ -32,7 +32,7 @@ body {
 
 .cardn {
   width: 500px;
-  height: 375px;
+  height: 355px;
   background-color: #f4f2f1;
   margin-bottom: 0px;
   box-sizing: border-box;
@@ -80,6 +80,18 @@ body {
   color: #bc6c71;
   white-space: pre-line;
   word-break: keep-all;
+}
+
+.cardk-image-header {
+  width: 1000px;
+  height: 110px;
+  text-align: center;
+}
+
+.cardk-image-header img {
+  width: 1000px;
+  height: 110px;
+  object-fit: cover;
 }
 
 .cardk {
