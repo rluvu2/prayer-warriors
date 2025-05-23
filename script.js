@@ -2,7 +2,7 @@ function fetchAndRenderCards() {
   const cardnWrapper = document.querySelector('.cardn-wrapper');
   const cardkWrapper = document.querySelector('.cardk-wrapper');
 
-  fetch('https://rluvu2.github.io/prayer-warriors/data/cardns.json')
+  fetch('data/cardns.json')
     .then(res => res.json())
     .then(cardns => {
       cardns.forEach(card => {
@@ -22,7 +22,7 @@ function fetchAndRenderCards() {
       });
     });
 
-  fetch('https://rluvu2.github.io/prayer-warriors/data/cardks.json')
+  fetch('data/cardks.json')
     .then(res => res.json())
     .then(cardks => {
       cardks.forEach(card => {
